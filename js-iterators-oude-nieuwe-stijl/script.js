@@ -26,7 +26,7 @@ colors3.forEach(element => console.log(element));
 //for loop meemt 3 regels en while loop 5 regels in beslag
 
 //2 Hoeveel regels neemt mijn forEach method in beslag?
-//Maar 2 regels!!
+//Maar 1 regel!!
 
 // 3 Welke voordelen heeft het gebruiken van een array method nog meer t.o.v. een for of een while loop? Welke methode vind je bijvoorbeeld makkelijker leesbaar? Waarom?
 //* Je kan minder fouten maken in je code. Hoef i niet bij te houden om te bepalen bij welke iteratie je bent.
@@ -47,7 +47,7 @@ const myColors = {
     colorBike: "white",
     colorShirt: "red",
     colorDog: "medium_blond",
-}
+};
 
 for (const property in myColors) {
     console.log(myColors[property]);
